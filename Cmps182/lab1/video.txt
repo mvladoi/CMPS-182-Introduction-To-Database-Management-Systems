@@ -1,0 +1,16 @@
+Downtown Video: The following is a schema for Downtown Video database. 
+There are 3 tables:films, customers, adress. 
+Each table has a primary key.
+
+
+=> films ( film_id, title, description, rating, length )
+Primary key: ( film_id )
+
+
+=> customers ( customer_id, first_name, last_name, gender, email, adress_id )
+Primary key: ( customer_id )
+
+
+
+=> adress ( adress_id, street, city, state, postal_code, phone )
+Primary key:( adress_id )

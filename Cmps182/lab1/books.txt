@@ -1,0 +1,14 @@
+City Books: The following is a schema for City Books database. 
+There are 3 tables: books, authors, customers. 
+Each table has a primary key.
+
+=> books ( book_id, title, author_id )
+Primary key: ( book_id )
+
+=> authors ( author_id, first_name, last_name )
+Primary key: ( author_id )
+
+
+
+=> customers ( customer_id, first_name, last_name, gender, phone_number )
+Primary key:( customer_id )
